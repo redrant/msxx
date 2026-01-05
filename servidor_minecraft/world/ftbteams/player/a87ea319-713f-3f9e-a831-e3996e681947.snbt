@@ -1,0 +1,16 @@
+{
+	id: "a87ea319-713f-3f9e-a831-e3996e681947"
+	type: "player"
+	player_name: "Redrant"
+	ranks: {
+		a87ea319-713f-3f9e-a831-e3996e681947: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Redrant"
+		"ftbteams:color": "#5985FF"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: { }
+}

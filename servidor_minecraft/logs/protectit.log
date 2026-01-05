@@ -1,0 +1,17 @@
+2026-01-05 03:41:45,492 [Server thread] INFO Protect It | ClaimBlock.java:118 | createNewTileEntity | tileEntity -> com.someguyssoftware.protectit.tileentity.ClaimTileEntity@5b5a38e2}
+2026-01-05 03:41:45,499 [Server thread] INFO Protect It | ClaimBlock.java:160 | num of overlaps @ 125 35 -392 <--> 157 99 -360 -> 0
+2026-01-05 03:41:47,616 [Server thread] INFO Protect It | ClaimBlock.java:118 | createNewTileEntity | tileEntity -> com.someguyssoftware.protectit.tileentity.ClaimTileEntity@28481b1}
+2026-01-05 03:41:47,616 [Server thread] INFO Protect It | ClaimBlock.java:160 | num of overlaps @ 125 35 -395 <--> 157 99 -363 -> 0
+2026-01-05 03:41:52,678 [Server thread] INFO Protect It | ClaimBlock.java:182 | claims -> []
+2026-01-05 03:41:52,678 [Server thread] INFO Protect It | ClaimBlock.java:197 | not protected
+2026-01-05 03:41:52,679 [Server thread] INFO Protect It | BlockProtectionRegistry.java:86 | adding claim protection -> Claim [name=1, owner=PlayerData [uuid=a87ea319-713f-3f9e-a831-e3996e681947, name=Redrant], whitelist=null, coords=Coords [x=125, y=35, z=-395], box=Box [minCoords=125 35 -395, maxCoords=157 99 -363]]
+2026-01-05 03:41:52,679 [Server thread] INFO Protect It | BlockProtectionRegistry.java:103 | size of tree -> 1
+2026-01-05 03:41:52,679 [Server thread] INFO Protect It | ClaimBlock.java:209 | should've added -> Box [minCoords=125 35 -395, maxCoords=157 99 -363] a87ea319-713f-3f9e-a831-e3996e681947
+2026-01-05 03:41:52,680 [Server thread] INFO Protect It | ClaimBlock.java:226 | sending message to sync client side 
+2026-01-05 03:43:23,629 [Server thread] INFO Protect It | ClaimLever.java:108 | createNewTileEntity | tileEntity -> com.someguyssoftware.protectit.tileentity.ClaimLeverTileEntity@4a234e6f}
+2026-01-05 03:43:24,295 [Server thread] INFO Protect It | ClaimLever.java:234 | sending claim lever message to sync client side -> ClaimLeverMessageToClient [valid=true, coords=Coords [x=127, y=67, z=-393], claimCoords=Coords [x=125, y=35, z=-395]]
+2026-01-05 03:43:43,326 [Server thread] INFO Protect It | RemoveClaimBlock.java:80 | create tileEntity -> com.someguyssoftware.protectit.tileentity.RemoveClaimTileEntity@4feb6691}
+2026-01-05 03:43:45,573 [Server thread] INFO Protect It | RemoveClaimBlock.java:80 | create tileEntity -> com.someguyssoftware.protectit.tileentity.RemoveClaimTileEntity@6208cdae}
+2026-01-05 03:43:46,792 [Server thread] INFO Protect It | RemoveClaimBlock.java:80 | create tileEntity -> com.someguyssoftware.protectit.tileentity.RemoveClaimTileEntity@65a35298}
+2026-01-05 03:44:08,376 [Server thread] INFO Protect It | ProtectItSavedData.java:62 | world data saving...
+2026-01-05 03:44:08,376 [Server thread] INFO Protect It | BlockProtectionRegistry.java:412 | saving registry...

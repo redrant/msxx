@@ -1,0 +1,42 @@
+
+###############################
+# General properties for Protect It  mod.
+###############################
+[03-general]
+	#The access level required for the 'give' command.
+	#Range: 0 ~ 4
+	"'give' command level:" = 2
+	# The number of claims each player can place per world.
+	#Range: 1 ~ 100
+	"Number of claims per player:" = 5
+	# The permission level required to be Ops within Protect It.
+	#This is not the op-permission-level that is set in the server.propeties.
+	#This allows players who are not server-level ops, to have Protect It Ops permissions. ie protections don't protect against Ops.
+	#Ex. server-level ops = 4, but Protect It ops = 3 - a player with permission 3 would be considered an Ops within Protect It.
+	#Range: 0 ~ 4
+	"Ops permission level:" = 4
+
+###############################
+# Protection properties for Protect It mod.
+# Note: these properties are for enabling the protections in the claim, not for enabling the actions.
+# ex. Block break protection = true, enables the PROTECTION AGAINST breaking blocks in the claim,
+# it does NOT enable the player TO BREAK a block.
+###############################
+[04-protection]
+	# Enables block break protection. If enabled, blocks in claim are protected from being broken by others.
+	"Block break proctection:" = true
+	# Enables block placement protection. If enabled, blocks are not allowed to be placed in the claim by others.
+	"Block placement proctection:" = true
+	# Enables multi-block placement protection. If enabled, multi-blocks are not allowed to be placed in the claim by others.
+	"Multi-block placement proctection:" = true
+	# Enables block tool interaction protection. If enabled, blocks in claim will not change state when right-clicked with tool. Ex. axe will not strip a log.
+	"Block tool interact proctection:" = true
+	# Enables right click protection. If enabled, blocks in claim will not perform any action if right-clicked. Ex. chests will not open for others.
+	"Right-click block proctection:" = true
+	# Enables block break protection from living entities. If enabled, blocks in claim are protected from being broken for living entities (mobs).
+	"Living destory block proctection:" = true
+	# Enables piston movement protection. If enabled, pistons outside the claim will not fire if their movement would move protected blocks.
+	"Piston movement proctection:" = true
+	# Enables explosion protection. If enabled, explosions will not destory protected blocks.
+	"Explosion proctection:" = true
+

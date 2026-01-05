@@ -1,0 +1,16 @@
+{
+	id: "286cc1ec-db3e-3a5d-a900-702cfc4a31b9"
+	type: "player"
+	player_name: "Virtuzxz"
+	ranks: {
+		286cc1ec-db3e-3a5d-a900-702cfc4a31b9: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Virtuzxz"
+		"ftbteams:color": "#C559FF"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: { }
+}
