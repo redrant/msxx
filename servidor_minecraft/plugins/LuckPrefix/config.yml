@@ -1,0 +1,34 @@
+# _               _    ____            __ _
+#| |   _   _  ___| | _|  _ \ _ __ ___ / _(_)_  __
+#| |  | | | |/ __| |/ / |_) | '__/ _ \ |_| \ \/ /
+#| |__| |_| | (__|   <|  __/| | |  __/  _| |>  <
+#|_____\__,_|\___|_|\_\_|   |_|  \___|_| |_/_/\_\
+#v2 | by ezTxmMC
+ColoredPermission: "luckprefix.colored"
+Groups:
+ColoredPermission: "luckprefix.colored"
+
+Groups:
+  chavista:
+    Prefix: "&c[Rojo]"
+    Suffix: ""
+    TabFormat: "&c[Rojo] &8| "
+    ChatFormat: "&c[Rojo] &8| &f%player &8>> &7%message"
+    SortID: "2"
+    Color: "red"
+
+  libertario:
+    Prefix: "&b[Azul]"
+    Suffix: ""
+    TabFormat: "&b[Azul] &8| "
+    ChatFormat: "&b[Azul] &8| &f%player &8>> &7%message"
+    SortID: "3"
+    Color: "aqua"
+
+  presidente:
+    Prefix: "&6[Lider]"
+    Suffix: ""
+    TabFormat: "&6[Lider] &8| "
+    ChatFormat: "&6[Lider] &8| &f%player &8>> &7%message"
+    SortID: "4"
+    Color: "gold"

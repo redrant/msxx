@@ -1,0 +1,657 @@
+[21:49:59] [main/INFO] [STDOUT/]: Update in check...
+[21:49:59] [main/INFO] [STDOUT/]: If you don't want to enable update check, set check_update in mohist-config/mohist.yml to false
+[21:50:00] [main/INFO] [STDOUT/]: [!] Can't connect to the ci to check updates or unable to download the update.
+[21:50:00] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 8c7caaf7, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc, nogui]
+[21:50:00] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher mohist-8.1.3 starting: java version 11.0.29 by Ubuntu
+[21:50:01] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[21:50:02] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/msxx/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[21:50:04] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [mcinterface1165.mixin.MixinConnector]
+[21:50:04] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[21:50:04] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.0+mc1.16.5: 89 options available, 0 override(s) found
+[21:50:05] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[21:50:05] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LootTableManager#apply
+[21:50:05] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
+[21:50:05] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching DataPackRegistries#<init>
+[21:50:05] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching ItemStack#onItemUse
+[21:50:06] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via org.embeddedt.modernfix.forge.shadow.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[21:50:07] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
+[21:50:07] [main/INFO] [net.minecraft.util.registry.Bootstrap/]: ModernFix reached bootstrap stage (18.45 s after launch)
+[21:50:08] [main/INFO] [FerriteCore - class definer/]: Using Java 9+ class definer
+[21:50:09] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching ItemStack#onItemUse
+[21:50:10] [main/INFO] [net.minecraft.util.registry.Bootstrap/]: Vanilla bootstrap took 2564 milliseconds
+[21:50:10] [modloading-worker-1/INFO] [STDOUT/]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Disabled because not running on the client.
+[21:50:10] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching DataPackRegistries#<init>
+[21:50:10] [modloading-worker-3/INFO] [JarSignVerifier/]: Mod usefulbackpacks is signed with a valid certificate.
+[21:50:10] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LootTableManager#apply
+[21:50:10] [modloading-worker-3/INFO] [TerraForged/]: Environment: dev=false, stable=true, vanilla=false
+[21:50:10] [modloading-worker-3/INFO] [TerraForged/]: Running on minimum supported core-count. Performance may not be optimal!
+[21:50:10] [modloading-worker-3/INFO] [TerraForged/]: Signature:  7b:73:d0:a2:c3:40:13:84:35:4f:c9:0e:2b:85:8c:08:ea:3c:3c:eb:f1:98:8b:5b:6e:ca:8a:a0:9a:cf:12:b3
+[21:50:10] [modloading-worker-3/INFO] [TerraForged/]: Trust Data: CN=TerraForged self-signed
+[21:50:10] [modloading-worker-3/INFO] [TerraForged/]: Initializing tags
+[21:50:10] [modloading-worker-3/INFO] [JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
+[21:50:10] [modloading-worker-2/ERROR] [mcinterface1165.InterfaceLoader/]: MTSERROR: Welcome to MTS VERSION: 22.17.0
+[21:50:10] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
+[21:50:10] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
+[21:50:11] [modloading-worker-1/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
+[21:50:11] [modloading-worker-2/ERROR] [mcinterface1165.InterfaceLoader/]: MTSERROR: Could not do model-based legacy compats on auweschveb:vehicle_satellite601_body.  Lights and treads will likely not be present on this model.
+[21:50:11] [modloading-worker-2/ERROR] [mcinterface1165.InterfaceLoader/]: MTSERROR: For input string: "rollerr"
+[21:50:12] [modloading-worker-2/ERROR] [mcinterface1165.InterfaceLoader/]: MTSERROR: Could not do model-based legacy compats on auweschveb:auweschveb_vehicle_w50.  Lights and treads will likely not be present on this model.
+[21:50:12] [modloading-worker-2/ERROR] [mcinterface1165.InterfaceLoader/]: MTSERROR: For input string: "rollerr"
+[21:50:14] [modloading-worker-2/ERROR] [mcinterface1165.InterfaceLoader/]: MTSERROR: null
+[21:50:14] [modloading-worker-2/INFO] [STDERR/]: [minecrafttransportsimulator.packloading.PackParser:registerItem:520]: java.lang.NullPointerException
+[21:50:14] [modloading-worker-2/INFO] [STDERR/]: [minecrafttransportsimulator.packloading.PackParser:registerItem:520]: 	at minecrafttransportsimulator.packloading.LegacyCompatSystem.performPartLegacyCompats(LegacyCompatSystem.java:694)
+[21:50:14] [modloading-worker-2/INFO] [STDERR/]: [minecrafttransportsimulator.packloading.PackParser:registerItem:520]: 	at minecrafttransportsimulator.packloading.LegacyCompatSystem.performLegacyCompats(LegacyCompatSystem.java:241)
+[21:50:14] [modloading-worker-2/INFO] [STDERR/]: [minecrafttransportsimulator.packloading.PackParser:registerItem:520]: 	at minecrafttransportsimulator.packloading.PackParser.registerItem(PackParser.java:469)
+[21:50:14] [modloading-worker-2/INFO] [STDERR/]: [minecrafttransportsimulator.packloading.PackParser:registerItem:520]: 	at minecrafttransportsimulator.packloading.PackParser.parseAllPacks(PackParser.java:436)
+[21:50:14] [modloading-worker-2/INFO] [STDERR/]: [minecrafttransportsimulator.packloading.PackParser:registerItem:520]: 	at minecrafttransportsimulator.packloading.PackParser.parsePacks(PackParser.java:156)
+[21:50:14] [modloading-worker-2/INFO] [STDERR/]: [minecrafttransportsimulator.packloading.PackParser:registerItem:520]: 	at mcinterface1165.InterfaceLoader.init(InterfaceLoader.java:102)
+[21:50:14] [modloading-worker-2/INFO] [STDERR/]: [minecrafttransportsimulator.packloading.PackParser:registerItem:520]: 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:248)
+[21:50:14] [modloading-worker-2/INFO] [STDERR/]: [minecrafttransportsimulator.packloading.PackParser:registerItem:520]: 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:240)
+[21:50:14] [modloading-worker-2/INFO] [STDERR/]: [minecrafttransportsimulator.packloading.PackParser:registerItem:520]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:304)
+[21:50:14] [modloading-worker-2/INFO] [STDERR/]: [minecrafttransportsimulator.packloading.PackParser:registerItem:520]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:284)
+[21:50:14] [modloading-worker-2/INFO] [STDERR/]: [minecrafttransportsimulator.packloading.PackParser:registerItem:520]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106)
+[21:50:14] [modloading-worker-2/INFO] [STDERR/]: [minecrafttransportsimulator.packloading.PackParser:registerItem:520]: 	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107)
+[21:50:14] [modloading-worker-2/INFO] [STDERR/]: [minecrafttransportsimulator.packloading.PackParser:registerItem:520]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736)
+[21:50:14] [modloading-worker-2/INFO] [STDERR/]: [minecrafttransportsimulator.packloading.PackParser:registerItem:520]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1728)
+[21:50:14] [modloading-worker-2/INFO] [STDERR/]: [minecrafttransportsimulator.packloading.PackParser:registerItem:520]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+[21:50:14] [modloading-worker-2/INFO] [STDERR/]: [minecrafttransportsimulator.packloading.PackParser:registerItem:520]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+[21:50:14] [modloading-worker-2/INFO] [STDERR/]: [minecrafttransportsimulator.packloading.PackParser:registerItem:520]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+[21:50:14] [modloading-worker-2/INFO] [STDERR/]: [minecrafttransportsimulator.packloading.PackParser:registerItem:520]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+[21:50:14] [modloading-worker-2/INFO] [STDERR/]: [minecrafttransportsimulator.packloading.PackParser:registerItem:520]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[21:50:16] [modloading-worker-2/ERROR] [mcinterface1165.InterfaceLoader/]: MTSERROR: ConfigSystem failed to save modified config files.  Report to the mod author!
+[21:50:16] [modloading-worker-2/ERROR] [mcinterface1165.InterfaceLoader/]: MTSERROR: null
+[21:50:16] [main/INFO] [TerraForged/]: Registering level types
+[21:50:17] [main/INFO] [TerraForged/]: Registering decorators
+[21:50:17] [main/INFO] [TerraForged/]: Registering features
+[21:50:17] [modloading-worker-1/INFO] [com.costa021.justveinminer.JustVeinMiner/]: Just Vein Miner loaded successfully!
+[21:50:17] [modloading-worker-2/INFO] [TerraForged/]: Common setup
+[21:50:17] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[21:50:17] [main/INFO] [journeymap/]: Initializing Packet Registries
+[21:50:18] [modloading-worker-2/INFO] [TerraForged/]: Loaded TerraForged version 0.2.16
+[21:50:18] [main/INFO] [TerraForged/]: Creating TerraForged level settings
+[21:50:18] [main/INFO] [TerraForged/]: Creating TerraForged chunk-generator from preset Default
+[21:50:18] [main/INFO] [TerraForged/]: Loading strata base decorator
+[21:50:18] [main/INFO] [TerraForged/]: Creating dimension: minecraft:overworld
+[21:50:18] [main/INFO] [TerraForged/]: Creating dimension: minecraft:the_nether
+[21:50:18] [main/INFO] [TerraForged/]: Creating dimension: minecraft:the_end
+[21:50:18] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:50:18] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[21:50:19] [main/INFO] [TerraForged/]: Adding DataPackFinder
+[21:50:19] [main/INFO] [TerraForged/]: Registering /terra command
+[21:50:19] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, VEB-1.1.11-1.16.5up.jar, useful_backpacks-1.16.5-1.12.1.103.jar, MouseTweaks-2.14-mc1.16.2.jar, v1.0.1 Release NightvisionEnchantment 1.16.5 Forge.jar, ImmersiveEngineering-1.16.5-5.1.0-148.jar, ChunkAnimator-1.16.5-1.2.4.jar, CreativeCore_v2.2.1_mc1.16.5.jar, locks-1.16.5-3.0.3.jar, justveinminer-2.0.0.jar, tac-release-0.3.14.2-1.16.5.jar, TerraForged-1.16.5-0.2.16.jar, FastSuite-1.16.4-1.1.1.jar, Clumps-6.0.0.28.jar, journeymap-1.16.5-5.8.6.jar, EnhancedVisuals_v1.3.32_mc1.16.5.jar, Controlling-7.0.0.31.jar, Searchables-forge-1.16.5-1.0.7.jar, Placebo-1.16.5-4.7.1.jar, modernfix-forge-5.18.0+mc1.16.5.jar, IAV-1.1.11-1.16.5up.jar, obfuscate-0.6.3-1.16.5.jar, u_team_core-forge-1.16.5-3.2.1.378.jar, lazydfu-0.1.3.jar, architectury-1.32.68.jar, ferritecore-2.1.1-forge.jar, Immersive Vehicles-1.16.5-22.18.0-pre.jar, TacCraft [Forge 1.16.5] 0.1.jar, FallingTree-1.16.5-2.11.7.jar, mohist-1.16.5-8c7caaf7-universal.jar, no_nv_flash-1.16.5-1.3.0.1.jar, GoodOlCurrency-Beta-0.0.1.jar, corpse-1.16.5-1.0.6.jar, bukkit
+[21:50:19] [main/INFO] [ModernFix/]: Invalidating pack caches
+[21:50:19] [Worker-Main-1/INFO] [tac/]: YO_DATA_GUN
+[21:50:19] [Worker-Main-1/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldnt load {0} tag {1} as it is missing following references: {2}
+[21:50:19] [Worker-Main-1/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldnt load {0} tag {1} as it is missing following references: {2}
+[21:50:19] [Worker-Main-1/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldnt load {0} tag {1} as it is missing following references: {2}
+[21:50:19] [Worker-Main-1/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldnt load {0} tag {1} as it is missing following references: {2}
+[21:50:20] [Worker-Main-1/INFO] [placebo/]: Registered 0 additional loot tables.
+[21:50:20] [Worker-Main-1/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1,472 recipes
+[21:50:20] [Worker-Main-1/INFO] [placebo/]: Registered 0 additional recipes.
+[21:50:20] [Worker-Main-1/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 41 milliseconds
+[21:50:20] [Worker-Main-1/INFO] [immersiveengineering/]: Recipes for potions: minecraft:long_invisibility, minecraft:fire_resistance, minecraft:strong_poison, minecraft:long_strength, minecraft:long_regeneration, minecraft:long_fire_resistance, minecraft:weakness, minecraft:slowness, minecraft:long_night_vision, minecraft:long_turtle_master, minecraft:strong_strength, minecraft:awkward, minecraft:long_weakness, minecraft:leaping, minecraft:strong_turtle_master, minecraft:night_vision, minecraft:strong_swiftness, minecraft:harming, minecraft:long_poison, minecraft:strong_leaping, minecraft:strength, minecraft:slow_falling, minecraft:mundane, minecraft:long_swiftness, minecraft:swiftness, minecraft:long_slow_falling, minecraft:strong_harming, minecraft:long_slowness, minecraft:turtle_master, minecraft:thick, minecraft:regeneration, minecraft:poison, minecraft:strong_slowness, minecraft:water_breathing, minecraft:healing, minecraft:long_water_breathing, minecraft:strong_healing, minecraft:water, minecraft:long_leaping, minecraft:invisibility, minecraft:strong_regeneration
+[21:50:20] [Worker-Main-1/INFO] [fastsuite/]: Successfully processed 1773 recipes into the AuxRecipeManager.
+[21:50:20] [main/INFO] [TerraForged/]: Tags Reloaded
+[21:50:20] [main/INFO] [TerraForged/]: Tags Reloaded
+[21:50:20] [main/INFO] [TerraForged/]: Loading strata base decorator
+[21:50:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[21:50:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[21:50:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[21:50:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[21:50:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25,565
+[21:50:20] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[21:50:20] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:50:20] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[21:50:20] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:50:20] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:50:20] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-8c7caaf7 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.42)
+[21:50:21] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[21:50:21] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[21:50:21] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[21:50:21] [Server thread/INFO] [/]: Loaded inheritance map of 2322 classes
+[21:50:23] [Server thread/WARN] [Minecraft/]: Ambiguous plugin name `WorldEdit'. It is also provided by `FastAsyncWorldEdit'
+[21:50:24] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/ProtocolLib.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: com/comphenix/protocol/ProtocolLib has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:148) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:395) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:303) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:218) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:799) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: com/comphenix/protocol/ProtocolLib has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1022) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.remappedFindClass(PluginClassLoader.java:279) ~[forge:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:202) ~[forge:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:594) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:138) ~[forge:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:133) ~[forge:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:527) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:398) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:83) ~[forge:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:144) ~[forge:?]
+	... 7 more
+[21:50:24] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/ItemEditor.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.2
+	at org.bukkit.craftbukkit.v1_16_R3.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:325) ~[forge:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:140) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:395) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:303) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:218) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:799) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+[21:50:25] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/FastAsyncWorldEdit-Bukkit-2.8.2.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: com/sk89q/worldedit/bukkit/WorldEditPlugin has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:148) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:395) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:303) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:218) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:799) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: com/sk89q/worldedit/bukkit/WorldEditPlugin has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1022) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.remappedFindClass(PluginClassLoader.java:279) ~[forge:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:202) ~[forge:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:594) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:138) ~[forge:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:133) ~[forge:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:527) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:398) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:83) ~[forge:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:144) ~[forge:?]
+	... 7 more
+[21:50:27] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading LuckPerms v5.5.22
+[21:50:27] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading configuration...
+[21:50:28] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.7
+[21:50:28] [Server thread/INFO] [com.nametagedit.plugin.NametagEdit/]: [NametagEdit] Loading NametagEdit v4.5.23
+[21:50:28] [Server thread/INFO] [de.tr7zw.nbtapi.plugin.NBTAPI/]: [NBTAPI] Loading NBTAPI v2.15.5
+[21:50:28] [Server thread/INFO] [NBTAPI/]: [NBTAPI] Found Minecraft: v1_16_R3! Trying to find NMS support
+[21:50:28] [Server thread/INFO] [NBTAPI/]: [NBTAPI] NMS support 'MC1_16_R3' loaded!
+[21:50:28] [Server thread/INFO] [NBTAPI/]: [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
+[21:50:28] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Loading Vault v1.7.3-b131
+[21:50:28] [Server thread/INFO] [it.emmerrei.mycommand.Main/]: [MyCommand] Loading MyCommand v5.7.4
+[21:50:28] [Server thread/INFO] [dev.eztxm.luckprefix.LuckPrefix/]: [LuckPrefix] Loading LuckPrefix v1.2.3
+[21:50:28] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap/]: [SkinsRestorer] Loading SkinsRestorer v15.9.3
+[21:50:28] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Loading WorldEdit v7.2.16+6534-2066eb4
+[21:50:28] [Thread-7/INFO] [NBTAPI/]: [NBTAPI] The NBT-API seems to be up-to-date!
+[21:50:29] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@aceb62a]
+[21:50:29] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Loading Essentials v2.22.0-dev+53-9ad754b
+[21:50:29] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldGuardPlugin/]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
+[21:50:29] [Server thread/INFO] [com.ssomar.score.SCore/]: [SCore] Loading SCore v5.25.12.7
+[21:50:29] [Server thread/INFO] [com.alonsoaliaga.betterrevive.BetterRevive/]: [BetterRevive] Loading BetterRevive v0.9.1-BETA
+[21:50:29] [Server thread/INFO] [/]: [BetterRevive] Inventory title with support for more than 32 characters. Skipping..
+[21:50:29] [Server thread/INFO] [/]: [BetterRevive] Hex colors are available! Ready for RGB..
+[21:50:29] [Server thread/INFO] [/]: [BetterRevive] Old constructor for HoverEvent found! Using it..
+[21:50:29] [Server thread/INFO] [/]: [BetterRevive] New sendTitle method found! Using it..
+[21:50:29] [Server thread/INFO] [/]: [BetterRevive] New setUnbreakable method found! Using it..
+[21:50:29] [Server thread/INFO] [/]: [BetterRevive] New isUnbreakable method found! Using it..
+[21:50:29] [Server thread/INFO] [/]: [BetterRevive] WorldGuard found! Registering custom flag(s)..
+[21:50:29] [Server thread/INFO] [/]: [BetterRevive] WorldGuard v7.x or newer detected. Using new methods..
+[21:50:29] [Server thread/INFO] [/]: [BetterRevive] [WorldGuard] Successfully registered 'betterrevive-can-bleed' flag!
+[21:50:29] [Server thread/INFO] [com.r4g3baby.simplescore.BukkitPlugin/]: [SimpleScore] Loading SimpleScore v4.1.0
+[21:50:30] [Server thread/ERROR] [org.bukkit.craftbukkit.v1_16_R3.CraftServer/]: null initializing SimpleScore v4.1.0 (Is it up to date?)
+java.lang.ExceptionInInitializerError: null
+	at com.r4g3baby.simplescore.bukkit.protocol.modern.chat.WrappedChatComponent.<clinit>(WrappedChatComponent.kt:25) ~[?:?]
+	at com.r4g3baby.simplescore.bukkit.protocol.modern.TeamsProtocolHandler.<init>(TeamsProtocolHandler.kt:23) ~[?:?]
+	at com.r4g3baby.simplescore.bukkit.BukkitManager.<init>(BukkitManager.kt:31) ~[?:?]
+	at com.r4g3baby.simplescore.BukkitPlugin.onLoad(BukkitPlugin.kt:30) ~[?:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:398) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:218) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:799) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.server.v1_16_R3.IChatBaseComponent
+	at java.lang.ClassLoader.findClass(ClassLoader.java:724) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:594) ~[?:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:117) ~[modlauncher-mohist-8.1.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:527) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:398) ~[?:?]
+	at com.mohistmc.bukkit.nms.proxy.ProxyClass.forName(ProxyClass.java:40) ~[forge:?]
+	at com.r4g3baby.simplescore.core.util.Reflection.getArrayClass(Reflection.kt:157) ~[?:?]
+	at com.r4g3baby.simplescore.bukkit.protocol.modern.chat.WrappedChatComponent.<clinit>(WrappedChatComponent.kt:21) ~[?:?]
+	... 8 more
+	Suppressed: java.lang.ClassNotFoundException
+		at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:307) ~[modlauncher-mohist-8.1.3.jar:?]
+		at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:160) ~[modlauncher-mohist-8.1.3.jar:?]
+		at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:109) ~[modlauncher-mohist-8.1.3.jar:?]
+		at java.lang.ClassLoader.loadClass(ClassLoader.java:527) ~[?:?]
+		at java.lang.Class.forName0(Native Method) ~[?:?]
+		at java.lang.Class.forName(Class.java:398) ~[?:?]
+		at com.mohistmc.bukkit.nms.proxy.ProxyClass.forName(ProxyClass.java:40) ~[forge:?]
+		at com.r4g3baby.simplescore.core.util.Reflection.getArrayClass(Reflection.kt:157) ~[?:?]
+		at com.r4g3baby.simplescore.bukkit.protocol.modern.chat.WrappedChatComponent.<clinit>(WrappedChatComponent.kt:21) ~[?:?]
+		at com.r4g3baby.simplescore.bukkit.protocol.modern.TeamsProtocolHandler.<init>(TeamsProtocolHandler.kt:23) ~[?:?]
+		at com.r4g3baby.simplescore.bukkit.BukkitManager.<init>(BukkitManager.kt:31) ~[?:?]
+		at com.r4g3baby.simplescore.BukkitPlugin.onLoad(BukkitPlugin.kt:30) ~[?:?]
+		at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:398) ~[forge:7e29f765-296df566-9fb885e8]
+		at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:218) ~[?:?]
+		at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:799) ~[?:?]
+		at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267) ~[?:?]
+		at java.lang.Thread.run(Thread.java:829) ~[?:?]
+[21:50:30] [Server thread/INFO] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Loading Shopkeepers v2.22.3
+[21:50:31] [Server thread/INFO] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Loaded all plugin classes (1182 ms).
+[21:50:31] [Server thread/INFO] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Loading config.
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Forcefully enabled 'disable-inventory-verification' to resolve a known incompatibility with Mohist servers.
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ALLAY
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ARMADILLO
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': AXOLOTL
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': BOGGED
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': BREEZE
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': CAMEL
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': FROG
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': GLOW_SQUID
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': GOAT
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': MOOSHROOM
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': SNIFFER
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': SNOW_GOLEM
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': TADPOLE
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': WARDEN
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[21:50:31] [Server thread/INFO] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Loading language file: language-en-default.yml
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ALLAY
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ARMADILLO
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': AXOLOTL
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': BOGGED
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': BREEZE
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': CAMEL
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': FROG
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': GLOW_SQUID
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': GOAT
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': MOOSHROOM
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': SNIFFER
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': SNOW_GOLEM
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': TADPOLE
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': WARDEN
+[21:50:31] [Server thread/WARN] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[21:50:31] [Server thread/INFO] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
+[21:50:31] [Server thread/INFO] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Registering defaults.
+[21:50:31] [Server thread/INFO] [com.ssomar.executableitems.ExecutableItems/]: [ExecutableItems] Loading ExecutableItems v7.25.12.7
+[21:50:31] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Enabling LuckPerms v5.5.22
+[21:50:33] [Server thread/INFO] [/]:         __    
+[21:50:33] [Server thread/INFO] [/]:   |    |__)   LuckPerms v5.5.22
+[21:50:33] [Server thread/INFO] [/]:   |___ |      Running on Bukkit - Mohist
+[21:50:33] [Server thread/INFO] [/]: 
+[21:50:33] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading storage provider... [H2]
+[21:50:36] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading internal permission managers...
+[21:50:36] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Performing initial data load...
+[21:50:37] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Successfully enabled. (took 5865ms)
+[21:50:37] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Enabling Vault v1.7.3-b131
+[21:50:37] [Server thread/WARN] [net.milkbowl.vault.Vault/]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.22.0-dev+53-9ad754b which is not a depend, softdepend or loadbefore of this plugin.
+[21:50:37] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Economy] Essentials Economy found: Waiting
+[21:50:37] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:50:37] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Enabled Version 1.7.3-b131
+[21:50:37] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Registered Vault permission & chat hook.
+[21:50:37] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap/]: [SkinsRestorer] Enabling SkinsRestorer v15.9.3
+[21:50:40] [Server thread/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.16.5[32;1m.[0;39m
+[21:50:41] [Server thread/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[21:50:41] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.9.3]
+[21:50:41] [Server thread/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mPlaceholderAPI expansion registered![0;39m
+[21:50:41] [Server thread/WARN] [Minecraft/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou are running an outdated Java version, please update it to at least Java 21 (your version is 11).[0;39m
+[21:50:41] [Server thread/WARN] [Minecraft/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mSkinsRestorer no longer officially supports this version of Java, you are currently using an unsupported compatibility build.[0;39m
+[21:50:41] [Server thread/WARN] [Minecraft/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou can still use the plugin, but you may encounter issues that are not present in newer versions of Java.[0;39m
+[21:50:41] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Enabling WorldEdit v7.2.16+6534-2066eb4
+[21:50:41] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:50:41] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: Vault detected! Using Vault for permissions
+[21:50:43] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[21:50:43] [Server thread/INFO] [ModernFix/]: Instantiating Mojang DFU
+[21:50:44] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] ====================================================
+[21:50:44] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  WorldEdit works better if you use Paper 
+[21:50:44] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  as your server software. 
+[21:50:44] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
+[21:50:44] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Paper offers significant performance improvements,
+[21:50:44] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  bug fixes, security enhancements and optional
+[21:50:44] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  features for server owners to enhance their server.
+[21:50:44] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
+[21:50:44] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[21:50:44] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  better at diagnosing lag problems over v1.
+[21:50:44] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
+[21:50:44] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  All of your plugins should still work, and the
+[21:50:44] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[21:50:44] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
+[21:50:44] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[21:50:44] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] ====================================================
+[21:50:44] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[21:50:44] [Server thread/INFO] [ModernFix/]: Starting locating executor service with thread pool size of 1
+[21:50:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[21:50:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[21:50:44] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[21:50:46] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[21:50:46] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 44%
+[21:50:46] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
+[21:50:47] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 2,607 ms
+[21:50:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_end
+[21:50:47] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[21:50:47] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[21:50:48] [Worker-Main-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 84%
+[21:50:48] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1,301 ms
+[21:50:48] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.7
+[21:50:48] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Fetching available expansion information...
+[21:50:48] [Server thread/INFO] [com.nametagedit.plugin.NametagEdit/]: [NametagEdit] Enabling NametagEdit v4.5.23
+[21:50:48] [Server thread/INFO] [com.nametagedit.plugin.NametagEdit/]: [NametagEdit] Successfully loaded using bukkit version: v1_16_R3
+[21:50:48] [Server thread/INFO] [com.nametagedit.plugin.NametagEdit/]: [NametagEdit] Found LuckPerms! Hooking in.
+[21:50:48] [Server thread/INFO] [de.tr7zw.nbtapi.plugin.NBTAPI/]: [NBTAPI] Enabling NBTAPI v2.15.5
+[21:50:48] [Server thread/INFO] [de.tr7zw.nbtapi.plugin.NBTAPI/]: [NBTAPI] Checking bindings...
+[21:50:48] [Server thread/INFO] [de.tr7zw.nbtapi.plugin.NBTAPI/]: [NBTAPI] All Classes were able to link!
+[21:50:48] [Server thread/INFO] [de.tr7zw.nbtapi.plugin.NBTAPI/]: [NBTAPI] All Methods were able to link!
+[21:50:48] [Server thread/INFO] [de.tr7zw.nbtapi.plugin.NBTAPI/]: [NBTAPI] Running NBT reflection test...
+[21:50:49] [Server thread/INFO] [de.tr7zw.nbtapi.plugin.NBTAPI/]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
+[21:50:49] [Server thread/INFO] [it.emmerrei.mycommand.Main/]: [MyCommand] Enabling MyCommand v5.7.4
+[21:50:49] [Server thread/INFO] [Minecraft/]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
+[21:50:49] [Server thread/INFO] [Minecraft/]: | Hooked on Vault 1.7.3-b131
+[21:50:49] [Server thread/INFO] [Minecraft/]: | Command file(s) found : 2
+[21:50:49] [Server thread/INFO] [Minecraft/]: | Config : Ready.
+[21:50:49] [Server thread/INFO] [Minecraft/]: | ProtocolLib not found.
+[21:50:49] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Successfully registered internal expansion: mycommand [1.0.0]
+[21:50:49] [Server thread/INFO] [Minecraft/]: | Placeholder_API : Hooked, Ok.
+[21:50:49] [Server thread/INFO] [Minecraft/]: | Custom commands loaded : 45
+[21:50:49] [Server thread/INFO] [Minecraft/]: | New update available : MyCommand v5.7.5
+[21:50:49] [Server thread/INFO] [Minecraft/]: |          by emmerrei a.k.a. ivanfromitaly.           
+[21:50:49] [Server thread/INFO] [Minecraft/]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
+[21:50:49] [Server thread/INFO] [dev.eztxm.luckprefix.LuckPrefix/]: [LuckPrefix] Enabling LuckPrefix v1.2.3
+[21:50:49] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Enabling Essentials v2.22.0-dev+53-9ad754b
+[21:50:50] [Server thread/ERROR] [Essentials/]: You are running a server that does not properly support Bukkit plugins. Bukkit plugins should not be used with Forge/Fabric mods! For Forge: Consider using ForgeEssentials, or SpongeForge + Nucleus.
+[21:50:50] [Server thread/INFO] [Essentials/]: Status determining class: net.minecraftforge.common.MinecraftForge
+[21:50:51] [Server thread/INFO] [Essentials/]: Attempting to convert old kits in config.yml to new kits.yml
+[21:50:51] [Server thread/INFO] [Essentials/]: No kits found to migrate.
+[21:50:51] [Server thread/INFO] [Essentials/]: No provider found for TickCountProvider, but it is nullable
+[21:50:51] [Server thread/INFO] [Essentials/]: Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[21:50:51] [Server thread/INFO] [Essentials/]: Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[21:50:51] [Server thread/INFO] [Essentials/]: Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[21:50:51] [Server thread/INFO] [Essentials/]: Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[21:50:51] [Server thread/INFO] [Essentials/]: No provider found for SerializationProvider, but it is nullable
+[21:50:51] [Server thread/INFO] [Essentials/]: Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[21:50:51] [Server thread/INFO] [Essentials/]: Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[21:50:51] [Server thread/INFO] [Essentials/]: Selected Bukkit Material Tag Provider as the provider for MaterialTagProvider
+[21:50:51] [Server thread/INFO] [Essentials/]: Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[21:50:51] [Server thread/INFO] [Essentials/]: No provider found for ContainerProvider, but it is nullable
+[21:50:51] [Server thread/INFO] [Essentials/]: Selected Reflection Known Commands Provider as the provider for KnownCommandsProvider
+[21:50:51] [Server thread/INFO] [Essentials/]: Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[21:50:51] [Server thread/INFO] [Essentials/]: Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[21:50:51] [Server thread/INFO] [Essentials/]: Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[21:50:51] [Server thread/INFO] [Essentials/]: Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[21:50:51] [Server thread/INFO] [Essentials/]: Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[21:50:51] [Server thread/INFO] [Essentials/]: No provider found for BiomeKeyProvider, but it is nullable
+[21:50:51] [Server thread/INFO] [Essentials/]: Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[21:50:51] [Server thread/INFO] [Essentials/]: Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[21:50:51] [Server thread/INFO] [Essentials/]: Selected Paper Server State Provider as the provider for ServerStateProvider
+[21:50:51] [Server thread/INFO] [Essentials/]: Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[21:50:51] [Server thread/INFO] [Essentials/]: Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[21:50:51] [Server thread/INFO] [Essentials/]: Loaded 46309 items from items.json.
+[21:50:51] [Server thread/INFO] [Essentials/]: Using locale en
+[21:50:51] [Server thread/INFO] [Essentials/]: ServerListPingEvent: Spigot iterator API
+[21:50:51] [Server thread/INFO] [Essentials/]: Starting Metrics. Opt-out using the global bStats config.
+[21:50:51] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Economy] Essentials Economy hooked.
+[21:50:51] [Server thread/INFO] [Essentials/]: Using Vault based permissions (LuckPerms)
+[21:50:51] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldGuardPlugin/]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
+[21:50:52] [Server thread/ERROR] [com.sk89q.worldedit.WorldEdit/]: No TreeType mapping for TreeGenerator.TreeType.MANGROVE
+[21:50:52] [Server thread/ERROR] [com.sk89q.worldedit.WorldEdit/]: No TreeType mapping for TreeGenerator.TreeType.TALL_MANGROVE
+[21:50:52] [Server thread/ERROR] [com.sk89q.worldedit.WorldEdit/]: No TreeType mapping for TreeGenerator.TreeType.CHERRY
+[21:50:52] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[21:50:52] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (world) Lighters are PERMITTED.
+[21:50:52] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (world) Lava fire is PERMITTED.
+[21:50:52] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[21:50:52] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] Loaded configuration for world 'world'
+[21:50:52] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (DIM1) TNT ignition is PERMITTED.
+[21:50:52] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (DIM1) Lighters are PERMITTED.
+[21:50:52] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (DIM1) Lava fire is PERMITTED.
+[21:50:52] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (DIM1) Fire spread is UNRESTRICTED.
+[21:50:52] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] Loaded configuration for world 'DIM1'
+[21:50:52] [Server thread/INFO] [com.sk89q.worldguard.WorldGuard/]: [WorldGuard] Loading region data...
+[21:50:52] [Server thread/INFO] [com.ssomar.score.SCore/]: [SCore] Enabling SCore v5.25.12.7
+[21:50:52] [Server thread/INFO] [/]: SCore The library part of SCore is initializing ... (by SCore)
+[21:50:52] [Server thread/INFO] [/]: SCore ExecutableItems hooked !  (7.25.12.7) Load After
+[21:50:52] [Server thread/INFO] [/]: SCore PlaceholderAPI hooked !  (2.11.7)  Load Before
+[21:50:52] [Server thread/INFO] [/]: SCore WorldGuard hooked !  (7.0.5+3827266)  Load Before
+[21:50:52] [Server thread/INFO] [/]: SCore Vault hooked !  (1.7.3-b131)  Load Before
+[21:50:52] [Server thread/INFO] [/]: SCore NBTAPI hooked !  (2.15.5)  Load Before
+[21:50:52] [Server thread/INFO] [/]: SCore WorldEdit hooked !  (7.2.16+6534-2066eb4)  Load Before
+[21:50:52] [Server thread/INFO] [/]: SCore Locale setup: EN
+[21:50:52] [Server thread/INFO] [/]: SCore Language of the editor setup on EN
+[21:50:52] [Server thread/INFO] [/]: SCore will connect to the database hosted: In Local
+[21:50:52] [Server thread/INFO] [/]: SCore Connection to the db...
+[21:50:52] [Server thread/INFO] [/]: SCore will connect to the database hosted: In Local
+[21:50:52] [Server thread/INFO] [/]: SCore Creating table SecurityOP if not exists...
+[21:50:52] [Server thread/INFO] [/]: SCore Creating table Commands if not exists...
+[21:50:52] [Server thread/INFO] [/]: SCore Creating table Cooldowns if not exists...
+[21:50:52] [Server thread/INFO] [/]: SCore Creating table Commands Player if not exists...
+[21:50:52] [Server thread/INFO] [/]: SCore Creating table Commands Entity if not exists...
+[21:50:52] [Server thread/INFO] [/]: SCore Creating table Commands Block if not exists...
+[21:50:52] [Server thread/INFO] [/]: SCore Creating table UsePerDay if not exists...
+[21:50:52] [Server thread/INFO] [/]: SCore Creating table AbsorptionQuery if not exists...
+[21:50:52] [Server thread/INFO] [/]: SCore Creating table ATemporaryAttributesQuery if not exists...
+[21:50:52] [Server thread/INFO] [/]: SCore SCore loaded 0 delayed commands saved
+[21:50:52] [Server thread/INFO] [/]: ================ SCore ================
+[21:50:52] [Server thread/INFO] [/]: SCore is running on Mohist
+[21:50:52] [Server thread/INFO] [/]: SCore is running on Paper or fork
+[21:50:52] [Server thread/INFO] [/]: SCore Version of the server 1.16.5-8c7caaf7 (MC: 1.16.5) !
+[21:50:52] [Server thread/INFO] [/]: SCore Language for in-game messages setup on EN
+[21:50:53] [Server thread/INFO] [/]: SCore SCore loaded 1 variables from local files !
+[21:50:53] [Server thread/INFO] [/]: [SCore] CustomListsManager: Loaded entity list 'ANNOYING_MOBS' with 3 entries
+[21:50:53] [Server thread/INFO] [/]: [SCore] CustomListsManager: Loaded entity list 'HOSTILE_MOBS' with 4 entries
+[21:50:53] [Server thread/INFO] [/]: [SCore] CustomListsManager: Loaded block list 'STUPID_BLOCKS' with 3 entries
+[21:50:53] [Server thread/INFO] [/]: [SCore] CustomListsManager: Loaded block list 'ORES' with 5 entries
+[21:50:53] [Server thread/INFO] [/]: [SCore] CustomListsManager: Loaded 2 entity lists and 2 block lists
+[21:50:53] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Successfully registered internal expansion: SCore [1.0.0]
+[21:50:53] [Server thread/INFO] [/]: ================ SCore ================
+[21:50:53] [Server thread/INFO] [com.alonsoaliaga.betterrevive.BetterRevive/]: [BetterRevive] Enabling BetterRevive v0.9.1-BETA
+[21:50:53] [Server thread/INFO] [/]:   ___      _   _           ___         _         
+[21:50:53] [Server thread/INFO] [/]:  | _ ) ___| |_| |_ ___ _ _| _ \_____ _(_)_ _____ 
+[21:50:53] [Server thread/INFO] [/]:  | _ \/ -_)  _|  _/ -_) '_|   / -_) V / \ V / -_)
+[21:50:53] [Server thread/INFO] [/]:  |___/\___|\__|\__\___|_| |_|_\___|\_/|_|\_/\___|
+[21:50:53] [Server thread/INFO] [/]: 
+[21:50:53] [Server thread/INFO] [/]:    Running plugin BetterRevive v0.9.1-BETA (v1_16)
+[21:50:53] [Server thread/INFO] [/]:    Server running Mohist version 1.16.5-8c7caaf7 (MC: 1.16.5)
+[21:50:53] [Server thread/INFO] [/]:    (Implementing API version 1.16.5-8c7caaf7 (MC: 1.16.5))
+[21:50:53] [Server thread/INFO] [/]:    (Developed by  AlonsoAliaga - Thanks for using my plugin ❤)
+[21:50:53] [Server thread/INFO] [/]:    If you loved the plugin consider leaving a review and mentioning your server IP in it!
+[21:50:53] [Server thread/INFO] [/]: 
+[21:50:53] [Server thread/INFO] [/]: ==============================================================================================
+[21:50:53] [Server thread/INFO] [/]: [BetterRevive] You are using a Spigot or a Spigot fork (Mohist), plugin should work fine!
+[21:50:53] [Server thread/INFO] [/]: [BetterRevive] If you have issues, join us on our official support server on alonsoaliaga.com/discord
+[21:50:53] [Server thread/INFO] [/]: ==============================================================================================
+[21:50:53] [Server thread/INFO] [/]: 
+[21:50:53] [Server thread/INFO] [/]: [BetterRevive] BungeeCord action bar available. Hooking..
+[21:50:53] [Server thread/INFO] [/]: [BetterRevive] ProtocolLib not found! Skipping..
+[21:50:53] [Server thread/INFO] [/]: [Auto-update] Configuration config.yml is up-to-date!
+[21:50:53] [Server thread/INFO] [/]: [BetterRevive] Factions hook is enabled but couldn't find any supported faction plugin were found. Disabling hook..
+[21:50:53] [Server thread/INFO] [/]: [BetterRevive] Finish off feature has been enabled! Players can finish off other player!
+[21:50:53] [Server thread/INFO] [/]: [BetterRevive] Finish off health: 20 | Finish off damage multiplier: 0.5
+[21:50:53] [Server thread/INFO] [/]: [BetterRevive] DamageCause for finish off is empty! All damage cause will be allowed to finish off players. (Includes DROWING, FIRE, LAVA, etc)
+[21:50:53] [Server thread/INFO] [/]: [BetterRevive] Bleeding mode is 0! Plugin will select the best option for your server!
+[21:50:53] [Server thread/INFO] [/]: [BetterRevive] Server version is v1_16. Players will look like swimming while bleeding! (Mode 2)
+[21:50:53] [Server thread/INFO] [/]: [BetterRevive] Loaded 1 bleeding effects.
+[21:50:53] [Server thread/INFO] [/]: [BetterRevive] Loaded 1 revived effect.
+[21:50:53] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Successfully registered internal expansion: betterrevive [0.9.1-BETA]
+[21:50:53] [Server thread/INFO] [com.r4g3baby.simplescore.BukkitPlugin/]: [SimpleScore] Enabling SimpleScore v4.1.0
+[21:50:53] [Server thread/WARN] [com.r4g3baby.simplescore.BukkitPlugin/]: [SimpleScore] Failed to initialize plugin, disabling...
+[21:50:53] [Server thread/INFO] [com.r4g3baby.simplescore.BukkitPlugin/]: [SimpleScore] Disabling SimpleScore v4.1.0
+[21:50:53] [Server thread/INFO] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Enabling Shopkeepers v2.22.3
+[21:50:53] [Server thread/INFO] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Loading the data of 4 shopkeepers ...
+[21:50:53] [Server thread/INFO] [com.ssomar.executableitems.ExecutableItems/]: [ExecutableItems] Enabling ExecutableItems v7.25.12.7
+[21:50:53] [Server thread/INFO] [/]: ========*======== ExecutableItems ========*========
+[21:50:54] [Server thread/WARN] [com.ssomar.executableitems.ExecutableItems/]: [ExecutableItems] No pack found in the folder __textures__
+[21:50:55] [Server thread/INFO] [/]: ExecutableItems ERROR, Couldn't load the EntityType value of detailedEntities from config, value: GOAT (Item: Prem_Baby_Mob_v1_14) >> EntityTypes available: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html , you can also use MythicMobs entities with the prefix MM- , or accept all entities with *
+[21:50:55] [Server thread/INFO] [/]: ExecutableItems ERROR, Couldn't load the EntityType value of detailedEntities from config, value: AXOLOTL (Item: Prem_Baby_Mob_v1_14) >> EntityTypes available: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html , you can also use MythicMobs entities with the prefix MM- , or accept all entities with *
+[21:50:56] [Server thread/INFO] [/]: ExecutableItems ERROR, Couldn't load the World value of ifInWorld from config, value: world_nether (Item: Prem_World_Teleporter_v1_8)
+[21:50:56] [Server thread/INFO] [/]: ExecutableItems ERROR, Couldn't load the World value of ifInWorld from config, value: world_the_end (Item: Prem_World_Teleporter_v1_8)
+[21:50:56] [Server thread/INFO] [/]: ExecutableItems Amount of Executable Items configurations loaded: 150
+[21:50:56] [Server thread/INFO] [/]: ExecutableItems Items with display conditions :  
+[21:50:56] [Server thread/INFO] [/]: ========*======== ExecutableItems ========*========
+[21:50:56] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Successfully registered internal expansion: ExecutableItems [1.0.0]
+[21:50:56] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[21:50:57] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[21:50:57] [Server thread/INFO] [/]: 0 placeholder hook(s) registered!
+[21:50:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.790s)! For help, type "help"
+[21:50:57] [Server thread/WARN] [ModernFix/]: Dedicated server took 68.139 seconds to load
+[21:50:57] [Server thread/INFO] [Essentials/]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[21:50:57] [Craft Scheduler Thread - 8/INFO] [Essentials/]: Fetching version information...
+[21:50:57] [Craft Scheduler Thread - 13/INFO] [net.milkbowl.vault.Vault/]: [Vault] Checking for Updates ... 
+[21:50:57] [Craft Scheduler Thread - 13/INFO] [net.milkbowl.vault.Vault/]: [Vault] No new version available
+[21:50:57] [Craft Scheduler Thread - 5/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[21:50:57] [Craft Scheduler Thread - 5/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[21:50:57] [Craft Scheduler Thread - 5/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[21:50:57] [Craft Scheduler Thread - 5/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[21:50:57] [Craft Scheduler Thread - 5/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[21:50:57] [Craft Scheduler Thread - 5/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[21:50:57] [Craft Scheduler Thread - 5/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[21:50:57] [Craft Scheduler Thread - 5/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.9.3[0;39m
+[21:50:57] [Craft Scheduler Thread - 5/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m989bf18[0;39m
+[21:50:57] [Craft Scheduler Thread - 5/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[21:50:57] [Craft Scheduler Thread - 5/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[21:50:57] [Craft Scheduler Thread - 5/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[21:50:57] [Craft Scheduler Thread - 5/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[21:50:57] [Craft Scheduler Thread - 8/WARN] [Essentials/]: You're 2 EssentialsX dev build(s) out of date!
+[21:50:57] [Craft Scheduler Thread - 8/WARN] [Essentials/]: Download it here: https://essentialsx.net/downloads.html
+[21:50:59] [Craft Scheduler Thread - 6/INFO] [/]: [BetterRevive] Checking for updates...
+[21:50:59] [Craft Scheduler Thread - 6/INFO] [/]: [BetterRevive] Plugin up-to-date! You have the latest version!
+[21:51:07] [Server thread/INFO] [Minecraft/]: [MyCommand] found an update for MyCommand. Type /mycommand for more infos.
+[21:51:50] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Redrant is a87ea319-713f-3f9e-a831-e3996e681947
+[21:51:51] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 38 mods : minecraft, auweschveb, auweschvebh, auweschvebm, auweschvebx, usefulbackpacks, mousetweaks, nightvisionenchantment, immersiveengineering, chunkanimator, creativecore, locks, justveinminer, tac, terraforged, fastsuite, clumps, journeymap, enhancedvisuals, controlling, searchables, placebo, modernfix, iav, iavm, iavn, obfuscate, uteamcore, lazydfu, architectury, ferritecore, mts, pretaccraft, fallingtree, forge, no_nv_flash, gocurrency, corpse
+[21:51:52] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Redrant[/192.168.196.51:49897] logged in with entity id 124 at (0.319, 202, 0.5)
+[21:51:52] [Server thread/INFO] [tac/]: PENDING
+[21:52:06] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /skin Redrant
+[21:52:10] [Server thread/INFO] [TerraForged/]: Create Tile Cache...
+[21:52:10] [Server thread/INFO] [TerraForged/]: System Defaults:
+[21:52:10] [Server thread/INFO] [TerraForged/]:  Thread Count:  4
+[21:52:10] [Server thread/INFO] [TerraForged/]:  Tile Size:     3
+[21:52:10] [Server thread/INFO] [TerraForged/]:  Batch Size:    5
+[21:52:10] [Worker-Main-2/INFO] [TerraForged/]:  - Erosion decorator enabled
+[21:52:10] [Worker-Main-2/INFO] [TerraForged/]:  - Natural snow decorator enabled
+[21:52:10] [Worker-Main-2/INFO] [TerraForged/]:  - Smooth layer decorator enabled
+[21:52:10] [Worker-Main-2/WARN] [net.minecraft.resources.ResourcePackInfo/]: Couldnt get pack info for: {0}
+[21:52:11] [Worker-Main-2/INFO] [TerraForged/]:  - Vanilla lakes disabled
+[21:52:11] [Worker-Main-2/INFO] [TerraForged/]:  - Vanilla lava lakes enabled
+[21:52:11] [Worker-Main-2/INFO] [TerraForged/]:  - Vanilla water springs enabled
+[21:52:11] [Worker-Main-2/INFO] [TerraForged/]:  - Vanilla lava springs disabled
+[21:52:11] [Worker-Main-2/INFO] [TerraForged/]:  - Custom features enabled
+[21:52:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made Redrant a server operator
+[21:52:50] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /gm 1
+[21:52:50] [Server thread/INFO] [Minecraft/]: Redrant issued mycmd (gamemode_alias) command /gm 1
+[21:52:50] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /gamemode 1
+[21:52:55] [Server thread/INFO] [Essentials/]: CONSOLE issued server command: /tp Redrant 2420 90 -12865
+[21:52:55] [Server thread/INFO] [/]: Teleporting...
+[21:52:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Set spawn point to 2420, 90, -12865 [0.0] in minecraft:overworld for Redrant
+[21:52:55] [luckperms-command-executor/INFO] [/]: [LP] redrant had their existing parent groups cleared, and now only inherits libertario in context global.
+[21:53:04] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /ei editor
+[21:53:15] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /score interact delete line <2>
+[21:53:24] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /score interact exit
+[21:54:11] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /itemdb
+[21:54:23] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /itemdb water_potion
+[21:54:33] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /itemno 10cd
+[21:58:40] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /mycmd-reload commands
+[21:58:40] [Server thread/INFO] [Minecraft/]: [MyCmd] Reloaded custom commands. Loaded 47 commands.
+[21:58:45] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /victoria
+[21:58:45] [Server thread/INFO] [Minecraft/]: Redrant issued mycmd (victoria) command /victoria
+[21:58:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Showing new title for Redrant
+[21:58:56] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /derrota
+[21:58:56] [Server thread/INFO] [Minecraft/]: Redrant issued mycmd (derrota) command /derrota
+[21:58:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Showing new title for Redrant
+[21:59:08] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /derrota
+[21:59:08] [Server thread/INFO] [Minecraft/]: Redrant issued mycmd (derrota) command /derrota
+[21:59:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Showing new title for Redrant
+[21:59:10] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /victoria
+[21:59:10] [Server thread/INFO] [Minecraft/]: Redrant issued mycmd (victoria) command /victoria
+[21:59:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Showing new title for Redrant
+[21:59:22] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /mycmd-reload commands
+[21:59:22] [Server thread/INFO] [Minecraft/]: [MyCmd] Reloaded custom commands. Loaded 47 commands.
+[21:59:23] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /victoria
+[21:59:23] [Server thread/INFO] [Minecraft/]: Redrant issued mycmd (victoria) command /victoria
+[21:59:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Showing new title for Redrant
+[21:59:27] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /victoria
+[21:59:27] [Server thread/INFO] [Minecraft/]: Redrant issued mycmd (victoria) command /victoria
+[21:59:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Showing new title for Redrant
+[21:59:29] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /derrota
+[21:59:29] [Server thread/INFO] [Minecraft/]: Redrant issued mycmd (derrota) command /derrota
+[21:59:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Showing new title for Redrant
+[21:59:32] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /victoria
+[21:59:32] [Server thread/INFO] [Minecraft/]: Redrant issued mycmd (victoria) command /victoria
+[21:59:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Showing new title for Redrant
+[21:59:38] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /derrota
+[21:59:38] [Server thread/INFO] [Minecraft/]: Redrant issued mycmd (derrota) command /derrota
+[21:59:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Showing new title for Redrant
+[21:59:45] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /victoria
+[21:59:45] [Server thread/INFO] [Minecraft/]: Redrant issued mycmd (victoria) command /victoria
+[21:59:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Showing new title for Redrant
+[21:59:51] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /derrota
+[21:59:51] [Server thread/INFO] [Minecraft/]: Redrant issued mycmd (derrota) command /derrota
+[21:59:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Showing new title for Redrant
+[22:00:26] [Async Chat Thread - 2/INFO] [/]: [Azul] | Redrant >> 500
+[22:00:31] [Async Chat Thread - 2/INFO] [/]: [Azul] | Redrant >> 2500
+[22:00:34] [Async Chat Thread - 2/INFO] [/]: [Azul] | Redrant >> 850
+[22:00:39] [Async Chat Thread - 2/INFO] [/]: [Azul] | Redrant >> 100
+[22:00:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Redrant has made the advancement [Swiper no Swiping]
+[22:03:18] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /tp Redrant 2916 80 -14700
+[22:03:38] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /time set day
+[22:08:40] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /tp 0 250 0
+[22:08:51] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /lp user Redrant parent set default
+[22:08:51] [luckperms-command-executor/INFO] [/]: [LP] LOG > (Redrant) [U] (redrant)
+[22:08:51] [luckperms-command-executor/INFO] [/]: [LP] LOG > parent set default
+[22:08:58] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /gm 0
+[22:08:58] [Server thread/INFO] [Minecraft/]: Redrant issued mycmd (gamemode_alias) command /gm 0
+[22:08:58] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /gamemode 0
+[22:09:00] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant issued server command: /deop Redrant
+[22:09:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Redrant: Made Redrant no longer a server operator]
+[22:09:04] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Redrant lost connection: Disconnected
+[22:09:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Redrant left the game
+[22:09:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[22:09:10] [Server thread/INFO] [ModernFix/]: Shutting down locating executor service
+[22:09:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22:09:10] [Server thread/INFO] [com.ssomar.executableitems.ExecutableItems/]: [ExecutableItems] Disabling ExecutableItems v7.25.12.7
+[22:09:10] [Server thread/INFO] [com.nisovin.shopkeepers.SKShopkeepersPlugin/]: [Shopkeepers] Disabling Shopkeepers v2.22.3
+[22:09:10] [Server thread/INFO] [com.alonsoaliaga.betterrevive.BetterRevive/]: [BetterRevive] Disabling BetterRevive v0.9.1-BETA
+[22:09:10] [Server thread/INFO] [/]:  
+[22:09:10] [Server thread/INFO] [/]: [BetterRevive] Plugin has been disabled!
+[22:09:10] [Server thread/INFO] [/]: [BetterRevive] Thank you for using my plugin!
+[22:09:10] [Server thread/INFO] [/]:  
+[22:09:10] [Server thread/INFO] [com.ssomar.score.SCore/]: [SCore] Disabling SCore v5.25.12.7
+[22:09:10] [Server thread/INFO] [/]: SCore Save UsagePerDay....
+[22:09:10] [Server thread/INFO] [/]: SCore Save UsagePerDay done !
+[22:09:10] [Server thread/INFO] [/]: SCore Save Commands...
+[22:09:10] [Server thread/INFO] [/]: SCore Save Commands done !
+[22:09:10] [Server thread/INFO] [/]: SCore Save Cooldowns...
+[22:09:10] [Server thread/INFO] [/]: SCore 0 cooldowns saved
+[22:09:10] [Server thread/INFO] [/]: SCore Save Cooldowns done !
+[22:09:10] [Server thread/INFO] [/]: SCore Run delayed saving tasks...
+[22:09:10] [Server thread/INFO] [/]: SCore Run delayed saving tasks done !
+[22:09:10] [Server thread/INFO] [/]: SCore Clear scheduled tasks...
+[22:09:10] [Server thread/INFO] [/]: SCore Clear scheduled tasks done !
+[22:09:10] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldGuardPlugin/]: [WorldGuard] Disabling WorldGuard v7.0.5+3827266
+[22:09:10] [Server thread/INFO] [com.sk89q.worldguard.WorldGuard/]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[22:09:10] [Server thread/INFO] [Essentials/]: Disabling Essentials v2.22.0-dev+53-9ad754b
+[22:09:10] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Economy] Essentials Economy unhooked.
+[22:09:10] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Disabling WorldEdit v7.2.16+6534-2066eb4
+[22:09:10] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:09:10] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap/]: [SkinsRestorer] Disabling SkinsRestorer v15.9.3
+[22:09:10] [Server thread/INFO] [dev.eztxm.luckprefix.LuckPrefix/]: [LuckPrefix] Disabling LuckPrefix v1.2.3
+[22:09:10] [Server thread/INFO] [it.emmerrei.mycommand.Main/]: [MyCommand] Disabling MyCommand v5.7.4
+[22:09:10] [Server thread/INFO] [Minecraft/]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
+[22:09:10] [Server thread/INFO] [Minecraft/]: | Tasks : Stopped all tasks.
+[22:09:10] [Server thread/INFO] [Minecraft/]: *-=-=-=-=-=-=-=-=-=-*    Bye!   *-=-=-=-=-=-=-=-=-=-=-*
+[22:09:10] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Disabling Vault v1.7.3-b131
+[22:09:10] [Server thread/INFO] [de.tr7zw.nbtapi.plugin.NBTAPI/]: [NBTAPI] Disabling NBTAPI v2.15.5
+[22:09:10] [Server thread/INFO] [com.nametagedit.plugin.NametagEdit/]: [NametagEdit] Disabling NametagEdit v4.5.23
+[22:09:10] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.7
+[22:09:10] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Disabling LuckPerms v5.5.22
+[22:09:10] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Starting shutdown process...
+[22:09:10] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Closing storage...
+[22:09:10] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Goodbye!
+[22:09:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22:09:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22:09:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:09:11] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:09:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[22:09:11] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:09:11] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:09:11] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

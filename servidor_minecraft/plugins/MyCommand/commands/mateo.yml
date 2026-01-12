@@ -1,0 +1,83 @@
+# Secuencia de Evento de Fases
+victoria:
+  command: /victoria
+  type: RUN_CONSOLE
+  runcmd:
+  - 'title @a title {"text":"El Lider Escapo","color":"red","bold":true}'
+derrota:
+  command: /derrota
+  type: RUN_CONSOLE
+  runcmd:
+  - 'title @a title {"text":"El Lider Fue Capturado","color":"blue","bold":true}'
+evento_mansion:
+  command: /eventoo
+  type: RUN_CONSOLE
+  runcmd:
+  # --- PRIMERA FASE ---
+  - '$broadcasttext$&6&lPrimera Fase'
+  - 'title @a title {"text":"Primera Fase","color":"gold","bold":true}'
+  - 'tellraw @a {"text":"Fase 1: Preparacion\nTiempo restante: 20 minutos\nNota: Los Azules pueden entrar a la mansion pero sin matar ni capturar al Lider","color":"yellow"}'
+  - '$delay$<6000>'
+  - 'tellraw @a {"text":"Tiempo restante: 15 minutos","color":"yellow"}'
+  - '$delay$<6000>'
+  - 'tellraw @a {"text":"Tiempo restante: 10 minutos","color":"yellow"}'
+  - '$delay$<6000>'
+  - 'tellraw @a {"text":"Tiempo restante: 5 minutos","color":"red"}'
+  - '$delay$<1200>'
+  - 'tellraw @a {"text":"4 minutos restantes","color":"red"}'
+  - '$delay$<1200>'
+  - 'tellraw @a {"text":"3 minutos restantes","color":"red"}'
+  - '$delay$<1200>'
+  - 'tellraw @a {"text":"2 minutos restantes","color":"red"}'
+  - '$delay$<1200>'
+  - 'tellraw @a {"text":"1 minuto restante","color":"dark_red"}'
+  - '$delay$<1200>'
+  
+  # --- SEGUNDA FASE ---
+  - 'title @a title {"text":"Segunda Fase","color":"gold","bold":true}'
+  - 'tellraw @a {"text":"Fase 2: Segunda Preparacion\nTiempo restante: 40 minutos\nNota: Los Azules pueden matar pero sin capturar al lider","color":"yellow"}'
+  - '$delay$<6000>'
+  - 'tellraw @a {"text":"Tiempo restante: 35 minutos","color":"yellow"}'
+  - '$delay$<6000>'
+  - 'tellraw @a {"text":"Tiempo restante: 30 minutos","color":"yellow"}'
+  - '$delay$<6000>'
+  - 'tellraw @a {"text":"Tiempo restante: 25 minutos","color":"yellow"}'
+  - '$delay$<6000>'
+  - 'tellraw @a {"text":"Tiempo restante: 20 minutos","color":"yellow"}'
+  - '$delay$<6000>'
+  - 'tellraw @a {"text":"Tiempo restante: 15 minutos","color":"yellow"}'
+  - '$delay$<6000>'
+  - 'tellraw @a {"text":"Tiempo restante: 10 minutos","color":"yellow"}'
+  - '$delay$<6000>'
+  - 'tellraw @a {"text":"Tiempo restante: 5 minutos","color":"red"}'
+  - '$delay$<1200>'
+  - 'tellraw @a {"text":"4 minutos restantes","color":"red"}'
+  - '$delay$<1200>'
+  - 'tellraw @a {"text":"3 minutos restantes","color":"red"}'
+  - '$delay$<1200>'
+  - 'tellraw @a {"text":"2 minutos restantes","color":"red"}'
+  - '$delay$<1200>'
+  - 'tellraw @a {"text":"1 minuto restante","color":"dark_red"}'
+  - '$delay$<1200>'
+
+  # --- TERCERA FASE ---
+  - 'title @a title {"text":"Tercera Fase","color":"red","bold":true}'
+  - 'tellraw @a {"text":"Fase 3: Resistencia\nTiempo restante: 10 minutos\nNota: Los Azules pueden capturar al lider","color":"red"}'
+  - '$delay$<6000>'
+  - 'tellraw @a {"text":"Tiempo restante: 5 minutos","color":"red"}'
+  - '$delay$<1200>'
+  - 'tellraw @a {"text":"4 minutos restantes","color":"red"}'
+  - '$delay$<1200>'
+  - 'tellraw @a {"text":"3 minutos restantes","color":"red"}'
+  - '$delay$<1200>'
+  - 'tellraw @a {"text":"2 minutos restantes","color":"red"}'
+  - '$delay$<1200>'
+  - 'tellraw @a {"text":"1 minuto restante","color":"dark_red"}'
+  - '$delay$<1200>'
+  
+  # --- FINAL / ESCAPE ---
+  - 'title @a title {"text":"Escape","color":"gold","bold":true}'
+  - 'rg flag -w world sumi interact ALLOW'
+  - 'tellraw @a {"text":"Chavistas, Helicoptero de escape: x: 2916 z: -14697","color":"green"}'
+  - 'tellraw @a {"text":"Libertarios, Suministros elites: x: 3197 z: -13279","color":"aqua"}'
+  permission-node: mycommand.admin.evento

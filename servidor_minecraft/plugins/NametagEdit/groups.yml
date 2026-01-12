@@ -1,0 +1,20 @@
+Groups:
+  chavista:
+    Prefix: "&c[Rojo] &f"
+    Suffix: ""
+    SortPriority: 3
+
+  libertario:
+    Prefix: "&b[Azul] &f"
+    Suffix: ""
+    SortPriority: 2
+
+  presidente:
+    Prefix: "&6[Lider] &f"
+    Suffix: ""
+    SortPriority: 1
+
+  default:
+    Prefix: "&7[Player] &f"
+    Suffix: ""
+    SortPriority: 4

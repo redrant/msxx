@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.245.253.33
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1767906579181
+  login: 1767906370412
+money: '0'
+last-account-name: Virtuzxz
+lastlocation:
+  world: 24df40cf-f042-446c-9feb-8435703f7b12
+  world-name: world
+  x: 2417.300000011921
+  y: 85.1212968405392
+  z: -12856.557421570069
+  yaw: 180.0401611328125
+  pitch: 5.017116069793701
+logoutlocation:
+  world: 24df40cf-f042-446c-9feb-8435703f7b12
+  world-name: world
+  x: 3204.6549792497194
+  y: 77.29673560066871
+  z: -13279.817875365177
+  yaw: 216.00006103515625
+  pitch: -1.0131441354751587

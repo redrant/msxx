@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.17.96.215
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1768232581377
+  login: 1768232456296
+money: '0'
+last-account-name: Redrant
+logoutlocation:
+  world: 24df40cf-f042-446c-9feb-8435703f7b12
+  world-name: world
+  x: 0.5
+  y: 203.0
+  z: 0.5
+  yaw: 210.08169555664062
+  pitch: 81.60000610351562
+lastlocation:
+  world: 24df40cf-f042-446c-9feb-8435703f7b12
+  world-name: world
+  x: 2676.9599749691897
+  y: 90.0
+  z: -12348.085052773195
+  yaw: 41.631591796875
+  pitch: 15.816186904907227

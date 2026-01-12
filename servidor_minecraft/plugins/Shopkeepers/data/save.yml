@@ -1,0 +1,490 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyway, ensure that the server is not running currently and that you have prepared a backup of this file.
+data-version: 3|2|2586
+'1':
+  uniqueId: a423b263-b0f9-4f6d-a635-159b83cfdc6c
+  world: world
+  x: 2416
+  y: 85
+  z: -12867
+  yaw: 157.4468
+  type: admin
+  name: Venta
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:butcher
+    villagerType: minecraft:snow
+    villagerLevel: 5
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGAAAEj7s2YQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: BIRCH_LOG
+        amount: 2
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGAAAEj7s2YQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: OAK_LOG
+        amount: 2
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGAAAEj7s2YQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: COBBLESTONE
+        amount: 10
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 15
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGAAAEj7s2YQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: COAL
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGIAAMqZhVQQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IMMERSIVEENGINEERING_INGOT_COPPER
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGIAAMqZhVQQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IRON_INGOT
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGIAAMqZhVQQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IMMERSIVEENGINEERING_INGOT_ALUMINUM
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGIAAMqZhVQQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLD_INGOT
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 7
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGIAAMqZhVQQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IMMERSIVEENGINEERING_INGOT_LEAD
+    '10':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGIAAMqZhVQQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IMMERSIVEENGINEERING_INGOT_SILVER
+    '11':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGIAAMqZhVQQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IMMERSIVEENGINEERING_INGOT_NICKEL
+    '12':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 15
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGIAAMqZhVQQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: DIAMOND
+    '13':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 20
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGIAAMqZhVQQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IMMERSIVEENGINEERING_INGOT_URANIUM
+  snapshots: []
+'3':
+  uniqueId: afc702d8-c7e2-48cb-afa0-be5ac7c06e91
+  world: world
+  x: 2669
+  y: 89
+  z: -12343
+  yaw: 192.98312
+  type: admin
+  name: Venta
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:cartographer
+    villagerType: minecraft:savanna
+    villagerLevel: 3
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGAAAEj7s2YQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: BIRCH_LOG
+        amount: 2
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGAAAEj7s2YQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: OAK_LOG
+        amount: 2
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGAAAEj7s2YQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: COBBLESTONE
+        amount: 10
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 15
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGAAAEj7s2YQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: COAL
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGIAAMqZhVQQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IMMERSIVEENGINEERING_INGOT_COPPER
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGIAAMqZhVQQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IRON_INGOT
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGIAAMqZhVQQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IMMERSIVEENGINEERING_INGOT_ALUMINUM
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGIAAMqZhVQQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLD_INGOT
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 7
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGIAAMqZhVQQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IMMERSIVEENGINEERING_INGOT_LEAD
+    '10':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGIAAMqZhVQQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IMMERSIVEENGINEERING_INGOT_SILVER
+    '11':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGIAAMqZhVQQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IMMERSIVEENGINEERING_INGOT_NICKEL
+    '12':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 15
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGIAAMqZhVQQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: DIAMOND
+    '13':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOCURRENCY_CURRENCY
+        amount: 20
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYGBk4EguLSpKzUuuZGIAAMqZhVQQAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IMMERSIVEENGINEERING_INGOT_URANIUM
+  snapshots: []
+'4':
+  uniqueId: 9e1a9793-de3f-49b6-b8d1-6c88bcf3c7be
+  world: world
+  x: -8
+  y: 203
+  z: 2
+  yaw: 235.88403
+  type: admin
+  name: Azul
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:cartographer
+    villagerType: minecraft:snow
+    villagerLevel: 5
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: LIGHT_BLUE_DYE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#008DD0","text":"[
+            "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#2ABFE8","text":"A"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3FD8F3","text":"z"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#54F1FF","text":"u"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3EC8E8","text":"l
+            "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#1376BA","text":"]"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Te
+            volveras Azul"}],"text":""}'
+          enchants:
+            PROTECTION_FALL: 6
+          ItemFlags:
+          - HIDE_ENCHANTS
+          PublicBukkitValues:
+            score:usage: 1i
+            executableitems:ei-id: libe
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GHAST_TEAR
+  snapshots: []
+'5':
+  uniqueId: 8bb5c783-cabf-4812-86ef-fba546c03300
+  world: world
+  x: -8
+  y: 203
+  z: -2
+  yaw: 306.05573
+  type: admin
+  name: Rojo
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:librarian
+    villagerType: minecraft:savanna
+    villagerLevel: 3
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: RED_DYE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D00000","text":"[
+            "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E82A46","text":"R"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F33F68","text":"o"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF548B","text":"j"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#EE4481","text":"o"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DD3478","text":"s
+            "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BA1364","text":"]"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Te
+            volveras rojo"}],"text":""}'
+          enchants:
+            PROTECTION_FALL: 6
+          ItemFlags:
+          - HIDE_ENCHANTS
+          PublicBukkitValues:
+            score:usage: 1i
+            executableitems:ei-id: cha
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GHAST_TEAR
+  snapshots: []
